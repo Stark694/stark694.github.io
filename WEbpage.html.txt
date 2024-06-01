@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deepak's Personal Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1em 0;
+            text-align: center;
+        }
+        section {
+            margin: 20px;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1, h2 {
+            color: #333;
+        }
+        .contact-info {
+            list-style: none;
+            padding: 0;
+        }
+        .contact-info li {
+            margin-bottom: 10px;
+        }
+        .skills, .experience {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Deepak</h1>
+    <p>Freelancer ready to work on operations management, E-commerce analyst, MI Data Associate at Amazon</p>
+</header>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>Hello! I'm Deepak, a versatile freelancer with experience in operations management, e-commerce analysis, and data management. Currently, I am an MI Data Associate at Amazon, where I leverage my analytical skills to drive data-driven decisions. I'm passionate about optimizing processes and enhancing business efficiency.</p>
+</section>
+
+<section id="skills">
+    <h2>Skills</h2>
+    <ul class="skills">
+        <li>Operations Management</li>
+        <li>E-commerce Analysis</li>
+        <li>Data Analysis</li>
+        <li>Process Optimization</li>
+        <li>Project Management</li>
+    </ul>
+</section>
+
+<section id="experience">
+    <h2>Experience</h2>
+    <div class="experience">
+        <h3>MI Data Associate</h3>
+        <p>Amazon</p>
+        <p>Utilizing data analysis skills to support business decisions and improve operational efficiency.</p>
+    </div>
+    <div class="experience">
+        <h3>Freelancer</h3>
+        <p>Self-employed</p>
+        <p>Providing expertise in operations management and e-commerce analysis to various clients.</p>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <ul class="contact-info">
+        <li>Email: <a href="mailto:deepak@example.com">deepak@example.com</a></li>
+        <li>LinkedIn: <a href="https://www.linkedin.com/in/deepak" target="_blank">linkedin.com/in/deepak</a></li>
+    </ul>
+</section>
+
+</body>
+</html>
